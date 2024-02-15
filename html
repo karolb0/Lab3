@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online Store</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="OS.css">
+
+</head>
+
+
+<body>
+    <div id="jb">
+        <h1 id="tl">JBU Online Store</h1>
+    </div>
+
+    <div id="sh">        
+        <img id="ct" src="https://media.istockphoto.com/id/639201180/vector/shopping-cart-icon.jpg?s=612x612&w=0&k=20&c=AIDue0uA36lvIYf4gstcMYqcIwCK_p3_RQb0EQv9XsI=" onclick="showcart('1')" />
+    </div>
+
+    <div id="dcart" style="display: none;">
+    
+    </div>
+
+    <div>
+        <ul>
+            <li><a href="https://eaglenet.jbu.edu/dashboard">Home</a></li>
+            <li><a href="https://www.jbu.edu/student-services/bookstore-mailroom/">Info</a></li>
+            <li><a href="https://jbu.slingshotedu.com/">Contact</a></li>
+            <li style="float:right"><a class="active" href="https://www.slingshotedu.com/support">About</a></li>
+          </ul>
+
+    </div>
+    <br><br><br>
+
+
+    <div id="cj">
+    <div class="item">
+        <table align="center">
+            <div id="fade1" class="overlay">
+
+            <tr>
+                <td align="center">
+                    <a href="javascript:void(0)" onclick="popupfunction('1')" class="link">
+                        <br>
+                        <img src="https://m.media-amazon.com/images/I/816uW9q6BKS.jpg" alt="Intel Laptop">
+                        <br>Intel Laptop
+                    </a><br><br>
+                    <button id="ll" onclick="additem('1')">Add to cart</button>
+                </td>
+                
+                <div id="popup1" class="popup">
+                    <img src="https://m.media-amazon.com/images/I/816uW9q6BKS.jpg" alt="Intel Laptop" width="80%" />
+                    <p>Intel Laptop<br>Price: $1300<br>Rating: 5</p>
+                    <a href="javascript:void(0)" onclick="popupclose('1')" class="linktext">Close Window</a>
+                </div>
+
+                <td>
+                    <a href="javascript:void(0)" onclick="popopfunction('1')" class="link">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-ipad-pro-12-wificell-spacegray-2021?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1674663709258" alt="Ipad">
+                        <br>Ipad
+                    </a><br><br>
+                    <button id="ll" onclick="additem('1')">Add to cart</button>
+                </td>
+
+                <div id="popup2" class="popup">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-ipad-pro-12-wificell-spacegray-2021?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1674663709258" alt="Intel Laptop" width="80%" />
+                    <p>Ipad<br>Price: $800<br>Rating: 4.5</p>
+                    <a href="javascript:void(0)" onclick="popupclose('1')" class="linktext">Close Window</a>
+                </div>
+
+                <td>
+
+                    <a href="javascript:void(0)" onclick="popopfunction('1')" class="link">
+                    <img src="https://www.elago.com/cdn/shop/products/EPADA109-5-MFLO-SPK2.jpg?v=1668194646" alt="Ipad Case" />
+                    <br>Ipad Case
+                </a><br><br>
+                <button id="ll" onclick="additem('1')">Add to cart</button>
+                </td>
+
+                <div id="popup3" class="popup">
+                    <img src="https://www.elago.com/cdn/shop/products/EPADA109-5-MFLO-SPK2.jpg?v=1668194646" alt="Intel Laptop" width="80%" />
+                    <p>Ipad Case<br>Price: $150<br>Rating: 5</p>
+                    <a href="javascript:void(0)" onclick="popupclose('1')" class="linktext">Close Window</a>
+                </div>
+
+                <td>
+
+                    <a href="javascript:void(0)" onclick="popopfunction('1')" class="link">
+                    <img id="pl" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK0C2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1564075356758" alt="Apple Pencil" />
+                    <br>Apple Pencil
+                </a><br><br>
+                <button id="ll" onclick="additem('1')">Add to cart</button>
+                </td>
+
+                <div id="popup4" class="popup">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK0C2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1564075356758" alt="Intel Laptop" width="80%" />
+                    <p>Apple Pencil<br>Price: $1000<br>Rating: 4</p>
+                    <a href="javascript:void(0)" onclick="popupclose('1')" class="linktext">Close Window</a>
+                </div>
+
+                <td>
+                    <a href="javascript:void(0)" onclick="popopfunction('1')" class="link">
+                    <img
+                        src="https://www.otterbox.com/dw/image/v2/BGMS_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwdc24e036/productimages/dis/cases-screen-protection/apl38-ipadl19/apl38-ipadl19-1.jpg?sw=800&sh=800" alt="Screen Protector" />
+                        <br>Screen Protector
+                    </a>
+                    <br><br>
+                    <button onclick="additem('1')">Add to cart</button>
+                </td>
+
+                <div id="popup5" class="popup">
+                    <img src="https://www.otterbox.com/dw/image/v2/BGMS_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwdc24e036/productimages/dis/cases-screen-protection/apl38-ipadl19/apl38-ipadl19-1.jpg?sw=800&sh=800" alt="Intel Laptop" width="80%" />
+                    <p>Screen Protector<br>Price: $110<br>Rating: 4.8</p>
+                    <a href="javascript:void(0)" onclick="popupclose('1')" class="linktext">Close Window</a>
+                </div>
+
+            </tr>
+
+        </table>
+    </div>
+    </div>
+</div>
+
+
+<script>
+    function popupfunction(x) {
+        document.getElementById('popup' + x).style.display = 'block';
+        document.getElementById('fade' + x).style.display = 'block';
+    }
+
+    function popupclose(x) {
+        document.getElementById('popup' + x).style.display = 'none';
+        document.getElementById('fade' + x).style.display = 'none';
+    }
+
+    function additem(x) {
+        document.getElementById('Intel Laptop' + x).style.display = 'block';
+        document.getElementById('Ipad' + x).style.display = 'block';
+        document.getElementById('Apple Pencil' + x).style.display = 'block';
+        document.getElementById('Ipad Case' + x).style.display = 'block';
+        document.getElementById('Screen Protector' + x).style.display = 'block';
+
+
+
+        }
+   
+    function showcart(x) {
+        document.getElementById('Intel Laptop' + x).style.display = 'none';
+        document.getElementById('Ipad' + x).style.display = 'none';
+        document.getElementById('Apple Pencil ' + x).style.display = 'none';
+        document.getElementById('Ipad Case' + x).style.display = 'none';
+        document.getElementById('Screen Protector' + x).style.display = 'none';
+
+    }
+   
+</script>
+
+</body>
+
+</html>
